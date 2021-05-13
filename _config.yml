@@ -1,0 +1,106 @@
+# Site settings
+title: Elmagnifico's Blog
+SEOTitle: elmagnifico's blog
+header-img: "img/home-bg.jpg"
+email: elmagnificogg@gmail.com
+description: "后端与嵌入式、maya与游戏 | elmagnifico， Back-end engineer & Embedded System Lover | 这里是elmagnifico的个人博客，君子之交淡如水。"
+keyword: "elmagnifico,嵌入式,C,Python,C#,后端,四轴,Raspberry Pi,树莓派,路径规划,maya,无人机,集群,vps,blog,java,springboot,c++,stm32,nintendo switch,硬件,game"
+url: "http://elmagnifico.tech"
+baseurl: ""
+
+
+
+# SNS settings
+RSS: true
+weibo_username:     5329300217
+zhihu_username:     yun-qian-xue-82
+github_username:    elmagnificogi
+twitter_username:   elmagnificotw
+facebook_username:  magnificofa.el
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: elmagnifico-1
+
+
+
+# Analytics settings
+# Baidu Analytics 
+ba_track_id: '9d14c694ddec7e797a00c990e9e8312d'
+
+# Google Analytics
+ga_track_id: 'UA-174663490-1'            # Format: UA-xxxxxx-xx
+ga_domain: elmagnifico.tech
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "君子之交淡如水"
+sidebar-avatar: /img/avatar.jpg     # use absolute URL.
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+      title: "智伤帝",
+      href: "https://blog.l0v0.com/"
+    },
+    {
+      title: "城南旧事",
+      href: "https://blog.loli.top/"
+    },
+    {
+        title: "等你成为我的朋友",
+        href: "http://等你成为我的朋友"
+    },{
+        title: "Wait for you",
+        href: "http://Wait for you"
+    }
+]

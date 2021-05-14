@@ -1,0 +1,31 @@
+---
+layout: default
+description: "链接失效了,如果非常想看的话,选择下面的方式联系我修改 :>"
+header-img: "img/404-bg.jpg"
+permalink: /404.html
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+				<div class="site-heading" id="tag-heading">
+					<h1>主站elmagnifico.tech正在被DDOS攻击，正在重定向……</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<script language="javascript">
+	var domain = "github.elmagnifico.tech";
+	var current = window.location.href;
+	var target = current.substring(current.indexOf('/', current.indexOf(':') + 3));
+	//window.location.href = "//" + domain + target;
+	//location.href = "//" + domain + target;
+</script>
+
+<script>
+	document.body.classList.add('page-fullscreen');
+</script>
